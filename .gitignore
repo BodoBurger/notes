@@ -1,0 +1,8 @@
+# IDEs
+.vscode/
+
+# Python
+.ipynb_checkpoints/
+
+# JupyterBook
+_build/

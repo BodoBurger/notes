@@ -1,0 +1,42 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Cloud Computing / Services
+    chapters:
+    - file: cloud/_index.md
+    - file: cloud/aws.md
+  - caption: Conda
+    chapters:
+    - file: conda/_index.md
+    - file: conda/install.md
+    - file: conda/update.md
+    - file: conda/environment.md
+  - caption: Data Science
+    chapters:
+    - file: data_science/big_data.md
+  - caption: Git
+    chapters:
+    - file: git/_index.md
+    - file: git/basics.md
+    - file: git/branch.md
+    - file: git/config.md
+    - file: git/remote.md
+  - caption: Ubuntu
+    chapters:
+    - file: ubuntu/_index.md
+    - file: ubuntu/basic-tweaks.md
+    - file: ubuntu/install-software.md
+    - file: ubuntu/pdf.md
+    - file: ubuntu/r-stats.md
+    - file: ubuntu/tlp.md
+    - file: ubuntu/usb-storage.md
+  - caption: VS Code
+    chapters:
+    - file: vs_code/misc.md
+  - caption: Appendix
+    chapters:
+    - file: appendix/jupyterbook.md
+    - file: appendix/notebooks.ipynb
