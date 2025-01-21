@@ -13,7 +13,7 @@ parts:
     - file: conda/_index.md
     - file: conda/install.md
     - file: conda/update.md
-    - file: conda/environment.md
+    - file: conda/environments.md
   - caption: Data Science
     chapters:
     - file: data_science/big_data.md
