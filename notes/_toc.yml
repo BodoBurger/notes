@@ -16,6 +16,7 @@ parts:
     - file: conda/environments.md
   - caption: Data Science
     chapters:
+    - file: data_science/sql_recipes.md
     - file: data_science/big_data.md
   - caption: Git
     chapters:
