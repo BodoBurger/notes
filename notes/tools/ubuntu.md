@@ -65,6 +65,15 @@ sudo snap refresh
 
 ## Tweaks and configuration
 
+### Gnome Shell Extensions
+
+```bash
+sudo apt install gnome-shell-extension-manager
+```
+
+- Window Is Ready - Notification Remover
+
+
 ### Keyboard shortcut Power off
 
 Adding shortcut for *Power off* screen by setting custom shortcut:

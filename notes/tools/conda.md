@@ -1,14 +1,31 @@
-# Installing & uninstalling
+# Conda
+
+[Conda](https://conda.io) is a package manager and environment management system.
+
+## Resources
+
+- [Conda docs](https://conda.io/projects/conda)
+- [Conda cheat sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
+- [Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)
+- [Conda forge (an alternative distribution for conda)](https://conda-forge.org/)
 
 
-## Sources
+## Installation
 
 - [Installing Miniconda](https://docs.anaconda.com/miniconda/install/)
 - [Installing Anaconda](https://docs.anaconda.com/anaconda/install/linux/)
 - [Uninstall](https://docs.anaconda.com/anaconda/uninstall/)
 
 
-## Installing
+### Miniforge
+
+https://conda-forge.org/download/
+
+```bash
+bash Miniforge3-Linux-x86_64.sh
+```
+
+### Miniconda
 
 ```bash
 # Download
@@ -21,12 +38,12 @@ bash ~/Miniconda3-latest-Linux-x86_64.sh
 source ~/.bashrc
 ```
 
-## Should you add Conda to the PATH?
+### Should you add Conda to the PATH?
 
 - [Conda FAQ](https://docs.anaconda.com/working-with-conda/reference/faq/)
 
 
-### Prevent conda from activating the base env by default
+#### Prevent conda from activating the base env by default
 
 - [Stackoverflow Thread](https://stackoverflow.com/questions/54429210/how-do-i-prevent-conda-from-activating-the-base-environment-by-default)
 
@@ -35,15 +52,14 @@ conda config --set auto_activate_base false
 ```
 
 
-## Want to change kernel in jupyter?
+### Want to change kernel in jupyter?
 
-Base environment needs the nb\_conda\_kernels package.
+Base environment needs the `nb_conda_kernels` package.
 Every environment needs the ipykernel package.
 
 ```bash
 conda install nb_conda_kernels
 ```
-
 
 ## Archived
 
