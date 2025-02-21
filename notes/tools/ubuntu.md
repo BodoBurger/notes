@@ -103,22 +103,24 @@ headerbar {
 Press *Alt-F2* und type in `r` to make the changes effective.
 
 
-
 ### TLP – Linux Advanced Power Management
 
+Documentation: https://linrunner.de
 
-http://thinkwiki.de/TLP_-_Linux_Stromsparen
+- Do not use it for newer Thinkpad models starting with T490
+    - https://pointieststick.com/2020/06/08/lenovo-thinkpad-x1-yoga-impressions-bugs-workarounds-and-thoughts-about-the-future/
 
-https://linrunner.de
+> For battery charging thresholds I recently dug into that a bit and got the following guidance from the battery team:
+> – If you often discharge your battery to near eempty (< 20%) then start charging at 95% and stop at 100%
+> – If you frequently use the battery but don't fully discharge. Usage between 50% and 100% then start charging at 75% and stop at 80%
+> – If you always use an AC adapter and rarely use battery start charging at 45% and stop at 50%
 
-https://linrunner.de/tlp/installation/ubuntu.html
 
 ```bash
 sudo apt install tlp tlp-rdw
 
 # for Thinkpads
 tlp-stat -b #suggest which additional package to install
-sudo apt install acpi-call-dkms
 
 # bluetooth off at startup:
 sudo nano /etc/tlp.conf
