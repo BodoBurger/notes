@@ -12,20 +12,14 @@ parts:
     chapters:
     - file: data_science/sql_recipes.md
     - file: data_science/big_data.md
-  - caption: Git
-    chapters:
-    - file: git/_index.md
-    - file: git/basics.md
-    - file: git/branch.md
-    - file: git/config.md
-    - file: git/remote.md
   - caption: Tools
     chapters:
     - file: tools/_index.md
     - file: tools/conda.md
+    - file: tools/git.md
     - file: tools/ubuntu.md
     - file: tools/ssh.md
-    - file: tools/vs_code.mde
+    - file: tools/vs_code.md
   - caption: Appendix
     chapters:
     - file: appendix/jupyterbook.md
