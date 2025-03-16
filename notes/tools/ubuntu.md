@@ -20,6 +20,8 @@ sudo apt install gnome-tweaks
 sudo apt install git
 
 sudo apt install dconf-editor
+
+sudo apt install vlc # Snap package was not working on Lenovo T470
 ```
 
 ### .deb
@@ -57,6 +59,11 @@ snap refresh --list
 
 sudo snap refresh
 ```
+
+### QGIS
+
+- https://qgis.org/resources/installation-guide/#debian--ubuntu
+
 
 ### Nvidia drivers
 

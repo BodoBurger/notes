@@ -8,12 +8,6 @@ parts:
     chapters:
     - file: cloud/_index.md
     - file: cloud/aws.md
-  - caption: Conda
-    chapters:
-    - file: conda/_index.md
-    - file: conda/install.md
-    - file: conda/update.md
-    - file: conda/environments.md
   - caption: Data Science
     chapters:
     - file: data_science/sql_recipes.md
@@ -28,11 +22,10 @@ parts:
   - caption: Tools
     chapters:
     - file: tools/_index.md
+    - file: tools/conda.md
     - file: tools/ubuntu.md
     - file: tools/ssh.md
-  - caption: VS Code
-    chapters:
-    - file: vs_code/misc.md
+    - file: tools/vs_code.mde
   - caption: Appendix
     chapters:
     - file: appendix/jupyterbook.md
